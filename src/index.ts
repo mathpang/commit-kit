@@ -1,7 +1,4 @@
-import { spawn } from "child_process";
-import { writeFileSync } from "fs";
-import { tmpdir } from "os";
-import { join } from "path";
+#!/usr/bin/env node
 
 const waitingForKeyPress = async () => {
   process.stdin.setRawMode(true);
